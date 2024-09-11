@@ -1,4 +1,4 @@
-# graphQLWithPostman
+# GraphQL with Postman
 
 Juan Fonseca 2024
 
