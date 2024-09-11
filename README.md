@@ -5,7 +5,7 @@ Juan Fonseca 2024
 Site for storing the artifacts generated during Pooja Mistry's training [1].
 
 ## A little of theory [2]
-* Facebook developed GraphQL in 2012 to avoid the problem of over-fetching data when consuming web services.
+* Facebook developed GraphQL in 2012 to avoid the problem of data over-fetching data when consuming web services.
 * Unlike RestFul services GraphQL uses a unique endpoint to perform all operations.
 
 ## References
