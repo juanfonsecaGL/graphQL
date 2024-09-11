@@ -14,8 +14,11 @@ Notes and exercises for Postman's Pooja Mistry's GraphQL training [1].
 ## Characteristics
 * GraphQL operations are queries, mutations, and subscriptions.
     * Queries: fetch data (like GET).
-    * Mutations: create or update data (like POST or PUT).
-    * Subscriptions: bi-directional communications (?).
+    * Mutations: create or update data (like POST, PUT, or DELETE).
+    * Subscriptions: bi-directional communication (streaming).
+ 
+## Inspection
+A capability provided by Postman to retrieve the full query schema from a GraphQL service and let the users choose what they want to use.
 
 ## References
 1. Pooja Mistry. Postman. GraphQL in Postman. URL: https://youtube.com/playlist?list=PLM-7VG-sgbtBbxlhXae-NegYvDD5uqFyC&si=_KpbbJ1bB_YAKrcy (last consulted on 09/10/2024)
