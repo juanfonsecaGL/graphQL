@@ -9,7 +9,7 @@ Notes and exercises for Postman's Pooja Mistry's GraphQL training [1].
 
 ## Benefits [2]
 * Avoids data under and over-fetching by letting the consumers specify what information they want to receive.
-* Minimizes the impact of changes on the API as (i) consumers specify the schema of the query, and (ii) user performs all operations using the same endpoint.
+* Minimizes the impact of changes on the API as consumers can (i) specify the schema of the query, and (ii) perform all operations using the same endpoint.
 
 ## Characteristics
 * GraphQL operations are queries, mutations, and subscriptions.
