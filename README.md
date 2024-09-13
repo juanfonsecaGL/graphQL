@@ -15,10 +15,10 @@ Notes and exercises for Postman's Pooja Mistry's GraphQL training [1].
 * GraphQL operations are queries, mutations, and subscriptions.
     * Queries: fetch data (like GET).
     * Mutations: create or update data (like POST, PUT, or DELETE).
-    * Subscriptions: bi-directional communication (streaming).
+    * Subscriptions: bi-directional communication (streaming, "real-time" communication).
  
 ## Inspection
-A capability provided by Postman to retrieve the full query schema from a GraphQL service and let the users choose what they want to use.
+Postman retrieves the full query schema from a GraphQL service to let the users choose what they want to use.
 
 ## Query examples
 Taking as an example the [Star Wars's Apollo API](https://studio.apollographql.com/public/star-wars-swapi/variant/current/home), we can retrieve all movie titles using a wide-open query:
@@ -86,7 +86,7 @@ Response fragment:
                     },`
 ```
 
-**Note:** 'characters' object isn't the same as 'person', and 'films' isn't the same as 'film'.
+**Note:** 'characters' object isn't the same as 'person', and 'films' isn't the same as 'film' (not nice).
 
 ## References
 1. Pooja Mistry. Postman. GraphQL in Postman. URL: https://youtube.com/playlist?list=PLM-7VG-sgbtBbxlhXae-NegYvDD5uqFyC&si=_KpbbJ1bB_YAKrcy (last consulted on 09/10/2024)
