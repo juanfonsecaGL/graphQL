@@ -51,7 +51,7 @@ Response fragment:
                 },
 ```
 
-And then, retrieve all characters in a movie by filtering the films object specifying an ID as an argument:
+And then, retrieve all characters in a movie by specifying the ID of the movie:
 
 Query:
 ```
