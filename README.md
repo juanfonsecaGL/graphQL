@@ -12,7 +12,7 @@ Notes and exercises for Postman's Pooja Mistry's GraphQL training [1].
 * Minimizes the impact of changes on the API as consumers can (i) specify the schema of the query, and (ii) perform all operations using the same endpoint.
 
 ## Characteristics
-* GraphQL operations are queries, mutations, and subscriptions [1].
+* GraphQL operations [1]:
     * Queries: fetch data (like GET).
     * Mutations: create or update data (like POST, PUT, or DELETE).
     * Subscriptions: bi-directional communication (streaming, "real-time" communication).
