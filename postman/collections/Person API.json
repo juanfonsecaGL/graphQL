@@ -1,0 +1,84 @@
+{
+	"info": {
+		"_postman_id": "e8e83f89-6bb6-4e1c-9a45-d69d3ec41754",
+		"name": "Person API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_uid": "15870526-e8e83f89-6bb6-4e1c-9a45-d69d3ec41754"
+	},
+	"item": [
+		{
+			"name": "mutations",
+			"item": [
+				{
+					"name": "createPerson",
+					"id": "853abff5-1d8f-4762-bf11-6b0cce4d4c56",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "mutation createPerson ($age: Int, $name: String) {\n    createPerson (age: $age, name: $name) {\n        name\n        age\n    }\n}",
+								"variables": "{\n  \"age\": 0,\n  \"name\": \"\"\n}"
+							}
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "a23e32eb-6d85-4e8c-9d50-43b7b5a09cda"
+		},
+		{
+			"name": "queries",
+			"item": [
+				{
+					"name": "person",
+					"id": "2eed0cf0-f965-42e2-9a3c-9ac4f020daba",
+					"protocolProfileBehavior": {
+						"disableBodyPruning": true
+					},
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "graphql",
+							"graphql": {
+								"query": "query person ($name: String) {\n    person (name: $name) {\n        name\n        age\n    }\n}",
+								"variables": "{\n  \"name\": \"\"\n}"
+							}
+						},
+						"url": {
+							"raw": "{{url}}",
+							"host": [
+								"{{url}}"
+							]
+						}
+					},
+					"response": []
+				}
+			],
+			"id": "1bf1f474-5648-4eca-a10a-b4bcbbb5f29d"
+		}
+	],
+	"variable": [
+		{
+			"id": "url",
+			"key": "url",
+			"value": "",
+			"type": "any",
+			"description": {
+				"content": "URL for the request.",
+				"type": "text/plain"
+			}
+		}
+	]
+}
