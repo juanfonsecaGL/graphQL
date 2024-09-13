@@ -26,9 +26,12 @@
 							}
 						},
 						"url": {
-							"raw": "{{url}}",
+							"raw": "{{url}}/personAPI",
 							"host": [
 								"{{url}}"
+							],
+							"path": [
+								"personAPI"
 							]
 						}
 					},
