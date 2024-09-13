@@ -51,7 +51,7 @@ Response fragment:
                 },
 ```
 
-And then, retrieve all characters in a movie by specifying the ID of the movie:
+Then, retrieve all characters in a movie by specifying the ID of the movie:
 
 Query:
 ```
@@ -85,6 +85,8 @@ Response fragment:
                         }
                     },`
 ```
+
+**Note:** 'characters' object isn't the same as 'person', and 'films' isn't the same as 'film'.
 
 ## References
 1. Pooja Mistry. Postman. GraphQL in Postman. URL: https://youtube.com/playlist?list=PLM-7VG-sgbtBbxlhXae-NegYvDD5uqFyC&si=_KpbbJ1bB_YAKrcy (last consulted on 09/10/2024)
