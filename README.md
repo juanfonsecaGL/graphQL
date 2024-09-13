@@ -7,9 +7,10 @@ Notes and exercises for Postman's Pooja Mistry's GraphQL training [1].
 ## History
 * Facebook developed GraphQL in 2012.
 
-## Benefits [2]
+## Benefits [2, 3]
 * Avoids data under and over-fetching by letting the consumers specify what information they want to receive.
 * Minimizes the impact of changes on the API as consumers can (i) specify the schema of the query, and (ii) perform all operations using the same endpoint.
+* Back-end and front-end developers can work independently (same URL, one does not have to wait for the other if they agree in how the schema would look like).
 
 ## Characteristics
 * GraphQL operations [1]:
