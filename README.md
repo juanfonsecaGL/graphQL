@@ -1,4 +1,4 @@
-# GraphQL with Postman
+# GraphQL with Postman and DotNet
 
 Juan Fonseca 2024
 
