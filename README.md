@@ -96,6 +96,13 @@ Response fragment:
 
 **Note:** 'characters' object isn't the same as 'person', and 'films' isn't the same as 'film' (not nice).
 
+# GraphiQL
+Install the library:
+```
+dotnet add package GraphQL.Client --version 6.1.0
+dotnet add package GraphQL.Client.Serializer.Newtonsoft --version 6.1.0
+```
+
 ## References
 1. Pooja Mistry. Postman. GraphQL in Postman. URL: https://youtube.com/playlist?list=PLM-7VG-sgbtBbxlhXae-NegYvDD5uqFyC&si=_KpbbJ1bB_YAKrcy (last consulted on 09/10/2024).
 2. Testing and Developing GraphQL APIs | Postman Intergalactic. URL: https://youtu.be/VRn2Nl8RXNw?si=2Lb0bxIwpp3jOrmM (last consulted on 09/11/2024).

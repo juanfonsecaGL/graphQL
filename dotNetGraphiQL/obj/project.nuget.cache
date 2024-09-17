@@ -1,0 +1,28 @@
+{
+  "version": 2,
+  "dgSpecHash": "KVMOmAdOilA=",
+  "success": true,
+  "projectFilePath": "/Users/juan.fonseca/Repositories/graphQLPostmanAndDotNet/dotNetGraphiQL/dotNetGraphiQL.csproj",
+  "expectedPackageFiles": [
+    "/Users/juan.fonseca/.nuget/packages/coverlet.collector/6.0.0/coverlet.collector.6.0.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/graphql.client/6.1.0/graphql.client.6.1.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/graphql.client.abstractions/6.1.0/graphql.client.abstractions.6.1.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/graphql.client.abstractions.websocket/6.1.0/graphql.client.abstractions.websocket.6.1.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/graphql.client.serializer.newtonsoft/6.1.0/graphql.client.serializer.newtonsoft.6.1.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/graphql.primitives/6.1.0/graphql.primitives.6.1.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/microsoft.codecoverage/17.8.0/microsoft.codecoverage.17.8.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/microsoft.net.test.sdk/17.8.0/microsoft.net.test.sdk.17.8.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/microsoft.netcore.platforms/1.1.0/microsoft.netcore.platforms.1.1.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/microsoft.testplatform.objectmodel/17.8.0/microsoft.testplatform.objectmodel.17.8.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/microsoft.testplatform.testhost/17.8.0/microsoft.testplatform.testhost.17.8.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/netstandard.library/2.0.0/netstandard.library.2.0.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/newtonsoft.json/13.0.3/newtonsoft.json.13.0.3.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/nuget.frameworks/6.5.0/nuget.frameworks.6.5.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/nunit/3.14.0/nunit.3.14.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/nunit.analyzers/3.9.0/nunit.analyzers.3.9.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/nunit3testadapter/4.5.0/nunit3testadapter.4.5.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/system.reactive/6.0.0/system.reactive.6.0.0.nupkg.sha512",
+    "/Users/juan.fonseca/.nuget/packages/system.reflection.metadata/1.6.0/system.reflection.metadata.1.6.0.nupkg.sha512"
+  ],
+  "logs": []
+}
